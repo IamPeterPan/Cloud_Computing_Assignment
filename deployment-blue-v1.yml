@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: cloud-computing-assignment
-          image: 'gcr.io/fleet-resolver-237016/$APP_NAME:v1'
+          image: 'gcr.io/fleet-resolver-237016/cloud-computing-assignment:v1'
           ports:
             - containerPort: 8080
           readinessProbe:
